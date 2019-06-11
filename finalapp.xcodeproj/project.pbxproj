@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0495ED5222AFC92E00F97B0C /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495ED5122AFC92E00F97B0C /* profile.swift */; };
+		0495ED6122AFECB400F97B0C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495ED6022AFECB400F97B0C /* Constants.swift */; };
+		0495ED6822AFEFDE00F97B0C /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495ED6522AFEFDE00F97B0C /* WeatherTableViewCell.swift */; };
+		0495ED6922AFEFDE00F97B0C /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495ED6622AFEFDE00F97B0C /* CurrentWeather.swift */; };
+		0495ED6A22AFEFDE00F97B0C /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495ED6322AFEFDE00F97B0C /* Forecast.swift */; };
+		0495ED6B22AFEFDE00F97B0C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495ED6722AFEFDE00F97B0C /* Location.swift */; };
+		0495ED6C22AFEFDE00F97B0C /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495ED6422AFEFDE00F97B0C /* ChangeCityViewController.swift */; };
+		0495ED6D22AFEFDE00F97B0C /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495ED6222AFEFDE00F97B0C /* WeatherViewController.swift */; };
+		0495ED6F22B02BF600F97B0C /* photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495ED6E22B02BF600F97B0C /* photo.swift */; };
+		0495ED7122B02D7800F97B0C /* Photodetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495ED7022B02D7800F97B0C /* Photodetail.swift */; };
 		04AB4AB922AE46110037AC1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AB822AE46110037AC1B /* AppDelegate.swift */; };
 		04AB4ABB22AE46110037AC1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4ABA22AE46110037AC1B /* ViewController.swift */; };
 		04AB4ABE22AE46110037AC1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB4ABC22AE46110037AC1B /* Main.storyboard */; };
@@ -14,6 +24,17 @@
 		04AB4AC322AE46120037AC1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AB4AC122AE46120037AC1B /* LaunchScreen.storyboard */; };
 		04AB4ACE22AE46120037AC1B /* finalappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4ACD22AE46120037AC1B /* finalappTests.swift */; };
 		04AB4AD922AE46120037AC1B /* finalappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AD822AE46120037AC1B /* finalappUITests.swift */; };
+		04AB4AE722AE4B960037AC1B /* FindfoodViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AE622AE4B960037AC1B /* FindfoodViewcontroller.swift */; };
+		04AB4AE922AE51220037AC1B /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AE822AE51220037AC1B /* Food.swift */; };
+		04AB4AEB22AE567B0037AC1B /* foodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AEA22AE567B0037AC1B /* foodTableViewCell.swift */; };
+		04AB4AED22AE75360037AC1B /* Fooddetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AEC22AE75360037AC1B /* Fooddetail.swift */; };
+		04AB4AEF22AE7CFC0037AC1B /* NaviMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AEE22AE7CFC0037AC1B /* NaviMap.swift */; };
+		04AB4AF122AE99E70037AC1B /* Photowall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AF022AE99E70037AC1B /* Photowall.swift */; };
+		04AB4AF322AEA2370037AC1B /* photocell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AF222AEA2370037AC1B /* photocell.swift */; };
+		04AB4AF722AECDE90037AC1B /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AF622AECDE90037AC1B /* Memory.swift */; };
+		04AB4AFB22AED0560037AC1B /* MemoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AFA22AED0560037AC1B /* MemoryController.swift */; };
+		04AB4AFD22AED5C90037AC1B /* EditMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB4AFC22AED5C90037AC1B /* EditMemory.swift */; };
+		62859CE8F3F74626F82A6CDF /* Pods_finalapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D2033C45B120999869BCD0 /* Pods_finalapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +55,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0495ED5122AFC92E00F97B0C /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		0495ED6022AFECB400F97B0C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "../../../Downloads/RainyShinyCloudy-master/RainyShinyCloudy/Supporting File/Constants.swift"; sourceTree = "<group>"; };
+		0495ED6222AFEFDE00F97B0C /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		0495ED6322AFEFDE00F97B0C /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		0495ED6422AFEFDE00F97B0C /* ChangeCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityViewController.swift; sourceTree = "<group>"; };
+		0495ED6522AFEFDE00F97B0C /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		0495ED6622AFEFDE00F97B0C /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		0495ED6722AFEFDE00F97B0C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		0495ED6E22B02BF600F97B0C /* photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo.swift; sourceTree = "<group>"; };
+		0495ED7022B02D7800F97B0C /* Photodetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photodetail.swift; sourceTree = "<group>"; };
 		04AB4AB522AE46110037AC1B /* finalapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AB4AB822AE46110037AC1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04AB4ABA22AE46110037AC1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +78,19 @@
 		04AB4AD422AE46120037AC1B /* finalappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AB4AD822AE46120037AC1B /* finalappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalappUITests.swift; sourceTree = "<group>"; };
 		04AB4ADA22AE46120037AC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AB4AE622AE4B960037AC1B /* FindfoodViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindfoodViewcontroller.swift; sourceTree = "<group>"; };
+		04AB4AE822AE51220037AC1B /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		04AB4AEA22AE567B0037AC1B /* foodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodTableViewCell.swift; sourceTree = "<group>"; };
+		04AB4AEC22AE75360037AC1B /* Fooddetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fooddetail.swift; sourceTree = "<group>"; };
+		04AB4AEE22AE7CFC0037AC1B /* NaviMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviMap.swift; sourceTree = "<group>"; };
+		04AB4AF022AE99E70037AC1B /* Photowall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photowall.swift; sourceTree = "<group>"; };
+		04AB4AF222AEA2370037AC1B /* photocell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photocell.swift; sourceTree = "<group>"; };
+		04AB4AF622AECDE90037AC1B /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		04AB4AFA22AED0560037AC1B /* MemoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryController.swift; sourceTree = "<group>"; };
+		04AB4AFC22AED5C90037AC1B /* EditMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemory.swift; sourceTree = "<group>"; };
+		521814FB0BDE8DB37C876D11 /* Pods-finalapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalapp.release.xcconfig"; path = "Target Support Files/Pods-finalapp/Pods-finalapp.release.xcconfig"; sourceTree = "<group>"; };
+		62D2033C45B120999869BCD0 /* Pods_finalapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finalapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2E2F4D1C85E8B3EB2361E5 /* Pods-finalapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalapp.debug.xcconfig"; path = "Target Support Files/Pods-finalapp/Pods-finalapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62859CE8F3F74626F82A6CDF /* Pods_finalapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +126,8 @@
 				04AB4ACC22AE46120037AC1B /* finalappTests */,
 				04AB4AD722AE46120037AC1B /* finalappUITests */,
 				04AB4AB622AE46110037AC1B /* Products */,
+				0D42BB01D76C78D370D3591A /* Pods */,
+				B8A7C7A301731FCBC134BEE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +144,32 @@
 		04AB4AB722AE46110037AC1B /* finalapp */ = {
 			isa = PBXGroup;
 			children = (
+				0495ED5122AFC92E00F97B0C /* profile.swift */,
+				04AB4AFA22AED0560037AC1B /* MemoryController.swift */,
+				04AB4AEE22AE7CFC0037AC1B /* NaviMap.swift */,
+				04AB4AE622AE4B960037AC1B /* FindfoodViewcontroller.swift */,
+				04AB4AEC22AE75360037AC1B /* Fooddetail.swift */,
+				0495ED7022B02D7800F97B0C /* Photodetail.swift */,
 				04AB4AB822AE46110037AC1B /* AppDelegate.swift */,
 				04AB4ABA22AE46110037AC1B /* ViewController.swift */,
 				04AB4ABC22AE46110037AC1B /* Main.storyboard */,
+				04AB4AFC22AED5C90037AC1B /* EditMemory.swift */,
+				04AB4AF622AECDE90037AC1B /* Memory.swift */,
+				04AB4AF222AEA2370037AC1B /* photocell.swift */,
+				04AB4AF022AE99E70037AC1B /* Photowall.swift */,
+				04AB4AEA22AE567B0037AC1B /* foodTableViewCell.swift */,
+				04AB4AE822AE51220037AC1B /* Food.swift */,
+				0495ED6E22B02BF600F97B0C /* photo.swift */,
 				04AB4ABF22AE46120037AC1B /* Assets.xcassets */,
+				0495ED6022AFECB400F97B0C /* Constants.swift */,
 				04AB4AC122AE46120037AC1B /* LaunchScreen.storyboard */,
 				04AB4AC422AE46120037AC1B /* Info.plist */,
+				0495ED6422AFEFDE00F97B0C /* ChangeCityViewController.swift */,
+				0495ED6622AFEFDE00F97B0C /* CurrentWeather.swift */,
+				0495ED6322AFEFDE00F97B0C /* Forecast.swift */,
+				0495ED6722AFEFDE00F97B0C /* Location.swift */,
+				0495ED6522AFEFDE00F97B0C /* WeatherTableViewCell.swift */,
+				0495ED6222AFEFDE00F97B0C /* WeatherViewController.swift */,
 			);
 			path = finalapp;
 			sourceTree = "<group>";
@@ -125,6 +192,23 @@
 			path = finalappUITests;
 			sourceTree = "<group>";
 		};
+		0D42BB01D76C78D370D3591A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A2E2F4D1C85E8B3EB2361E5 /* Pods-finalapp.debug.xcconfig */,
+				521814FB0BDE8DB37C876D11 /* Pods-finalapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8A7C7A301731FCBC134BEE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62D2033C45B120999869BCD0 /* Pods_finalapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04AB4ADD22AE46120037AC1B /* Build configuration list for PBXNativeTarget "finalapp" */;
 			buildPhases = (
+				62D982C07D66FDDEFE55EAC4 /* [CP] Check Pods Manifest.lock */,
 				04AB4AB122AE46110037AC1B /* Sources */,
 				04AB4AB222AE46110037AC1B /* Frameworks */,
 				04AB4AB322AE46110037AC1B /* Resources */,
+				752D1DA9D6A6505CD1559EAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +337,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62D982C07D66FDDEFE55EAC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-finalapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		752D1DA9D6A6505CD1559EAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finalapp/Pods-finalapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finalapp/Pods-finalapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-finalapp/Pods-finalapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04AB4AB122AE46110037AC1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0495ED6822AFEFDE00F97B0C /* WeatherTableViewCell.swift in Sources */,
+				0495ED6D22AFEFDE00F97B0C /* WeatherViewController.swift in Sources */,
 				04AB4ABB22AE46110037AC1B /* ViewController.swift in Sources */,
+				0495ED6F22B02BF600F97B0C /* photo.swift in Sources */,
+				0495ED6922AFEFDE00F97B0C /* CurrentWeather.swift in Sources */,
+				04AB4AFD22AED5C90037AC1B /* EditMemory.swift in Sources */,
+				0495ED6B22AFEFDE00F97B0C /* Location.swift in Sources */,
 				04AB4AB922AE46110037AC1B /* AppDelegate.swift in Sources */,
+				0495ED6A22AFEFDE00F97B0C /* Forecast.swift in Sources */,
+				04AB4AFB22AED0560037AC1B /* MemoryController.swift in Sources */,
+				0495ED6C22AFEFDE00F97B0C /* ChangeCityViewController.swift in Sources */,
+				04AB4AED22AE75360037AC1B /* Fooddetail.swift in Sources */,
+				04AB4AE922AE51220037AC1B /* Food.swift in Sources */,
+				04AB4AF722AECDE90037AC1B /* Memory.swift in Sources */,
+				04AB4AF122AE99E70037AC1B /* Photowall.swift in Sources */,
+				0495ED7122B02D7800F97B0C /* Photodetail.swift in Sources */,
+				04AB4AF322AEA2370037AC1B /* photocell.swift in Sources */,
+				04AB4AE722AE4B960037AC1B /* FindfoodViewcontroller.swift in Sources */,
+				0495ED5222AFC92E00F97B0C /* profile.swift in Sources */,
+				0495ED6122AFECB400F97B0C /* Constants.swift in Sources */,
+				04AB4AEF22AE7CFC0037AC1B /* NaviMap.swift in Sources */,
+				04AB4AEB22AE567B0037AC1B /* foodTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +578,7 @@
 		};
 		04AB4ADE22AE46120037AC1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2E2F4D1C85E8B3EB2361E5 /* Pods-finalapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +596,7 @@
 		};
 		04AB4ADF22AE46120037AC1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 521814FB0BDE8DB37C876D11 /* Pods-finalapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
